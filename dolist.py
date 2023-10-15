@@ -2,7 +2,7 @@ import random
 import tkinter
 window=tkinter.Tk()
 window.minsize(400,400)
-window.title("Calculator")
+window.title("To-do List")
 label1=tkinter.Label(text="0")
 label1.place(x=10,y=0)
 input_element=tkinter.Entry()
