@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+	<head>
+		<title>Travel Form</title>
+	</head>
+	<body>
+		<h1>Travel Reservation form</h1>
+		<h2>*denotes mandatory</h2>
+		<form action="">
+			<label for="">Full name*:</label><br>
+			<input type="text" placeholder="Firstname LastName" required=""><br>
+			<label for="">Email address*:</label><br>
+			<input type="text" required=""><br>
+			<label for="">Select Tour Package*:</label><br>
+			<select name="places">
+				<option value="goa">goa</option>
+				<option value="Munnar">Munnar</option>
+				<option value="Kashmir">Kashmir</option>
+			</select><br>
+			<label for="">Arrival date*:</label><br>
+			<input type="text" placeholder="mm/dd/yyyy" required=""><br>
+			<label for="">Number of persons*:</label><br>
+			<input type="text" required=""><br>
+			<label for="">What would you want to avail?*:</label><br>
+			<label for="car">Boarding</label>
+			<input type="checkbox" name="car" id="car"><br>
+			<label for="bike">Fooding</label>
+			<input type="checkbox" name="bike" id="bike"><br>
+			<label for="boat">Sight seeing</label>
+			<input type="checkbox" name="boat" id="boat"><br>
+			<label for="">Discount Coupon code:</label><br>
+			<input type="text"><br>
+			<label for="">Terms and conditions*</label><br>
+			<input type="radio" id="agree">
+			<label for="agree">I agree</label>
+			<input type="radio" id="disagree">
+			<label for="disagree">I disagree</label><br>
+			<input type="submit" value="Complete reservation"><br>
+
+		</form>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+table{
+	background-color: lightblue;
+	border:1px solid; 
+	border-collapse:collapse;
+	width:100%
+}
+body{
+	background-color:#088F8F;
+}
+td{
+	text-align: center;
+}
+td,th{
+	border:1px solid; 
+	border-collapse:collapse;
+	border-color:black;
+	padding:8px
+}
+.another{
+	background-image: url("image.jpg");
+	background-repeat: no-repeat;
+}
